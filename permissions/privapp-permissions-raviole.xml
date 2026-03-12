@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+    <privapp-permissions package="com.android.xsettings">
+
+        <!-- privileged / signature 权限 -->
+        <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+        <permission name="com.android.permission.GET_INSTALLED_APPS"/>
+
+    </privapp-permissions>
+
+</permissions>

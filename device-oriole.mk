@@ -277,4 +277,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     HbmSVManagerOverlay
 
+PRODUCT_COPY_FILES += \
+    device/google/raviole/permissions/privapp-permissions-raviole.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-raviole.xml
+    
 BUILD_DISPLAY_ID := TQ3A.230901.001
