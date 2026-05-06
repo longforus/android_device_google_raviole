@@ -4,4 +4,5 @@ android_app_import {
     privileged: true,
     certificate: "platform",
     system_ext_specific: true,
+    presigned: false,
 }
