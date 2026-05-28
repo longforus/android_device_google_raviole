@@ -55,8 +55,9 @@ on post-fs-data
     chmod 0660  /sys/class/st33spi/st33spi/st33spi_state
     # create xsettings base directory
     mkdir /data/system/xst 0775 system system
-    chown system system /data/system/xst
-    chmod 0775 /data/system/xst
+    #chown system system /data/system/xst
+    #chmod 0775 /data/system/xst
+    restorecon_recursive /data/system/xst
     
 
 on property:ro.revision=PROTO1.0
