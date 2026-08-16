@@ -6,6 +6,9 @@
 
 BUILD_BROKEN_DUP_RULES := true
 
+# SELinux
+BOARD_SEPOLICY_DIRS += device/google/raviole/sepolicy
+
 # Kernel
 TARGET_KERNEL_DTBO_PREFIX := dts/
 TARGET_KERNEL_DTBO := google/dtbo.img
