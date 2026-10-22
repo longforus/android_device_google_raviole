@@ -6,6 +6,7 @@
         <!-- privileged / signature 权限 -->
         <permission name="android.permission.QUERY_ALL_PACKAGES"/>
         <permission name="com.android.permission.GET_INSTALLED_APPS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
 
     </privapp-permissions>
 
